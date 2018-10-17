@@ -1,5 +1,5 @@
 /root/shell/rm_all_container.sh
-source /root/.env
+source /root/shell/.env
 if [ $IP == "192.168.12.2" ]; then
     \cp /root/twemproxy-sentinel/sentinel.conf /data/redis/conf/
     scp /root/twemproxy-sentinel/sentinel.conf root@192.168.12.3:/data/redis/conf/

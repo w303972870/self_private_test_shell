@@ -1,4 +1,4 @@
-source /root/.env
+source /root/shell/.env
 
 docker run -dit -p 6370:6370 -v /data/redis/:/data/ --name redis_6370 --net host -e START=redis -e REDIS_PORT=6370 --privileged -e REDIS_REQUIREPASS=123456 -e LISTION=IP docker.io/w303972870/twemproxy-sentinel
 
