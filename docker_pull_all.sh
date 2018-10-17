@@ -1,0 +1,12 @@
+docker pull w303972870/mariadb-galera
+docker pull w303972870/twemproxy-sentinel
+docker pull w303972870/keepalived
+docker pull w303972870/haproxy
+#docker pull w303972870/mariadb
+docker pull w303972870/nginx-php
+docker pull w303972870/sphinx
+#docker pull w303972870/php
+#docker pull w303972870/tenginx
+docker pull w303972870/openresty-php
+#docker pull w303972870/redis
+#docker pull w303972870/twemproxy

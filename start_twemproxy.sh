@@ -1,0 +1,1 @@
+docker run -dit  --net host -p 22121:22121  --privileged  -v /root/twemproxy/redis_master.conf:/data/twemproxy/redis_master.conf -v /data/twemproxy/logs/:/data/twemproxy/logs/ registry.cn-hangzhou.aliyuncs.com/server_repertory/twemproxy:latest
